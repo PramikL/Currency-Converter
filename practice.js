@@ -6,7 +6,7 @@ const getdata = async() =>{
     console.log("Getting data....");
     let response  = await fetch(URL);
     console.log(response);
-    let data =await response.json()
+    let data =await response.json();
     factspara.innerText = data.data[0];
 }
 

@@ -1,1 +1,1 @@
-# Random-Facts-Generator
+<p> The concept of fetch API is used</p>

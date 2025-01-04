@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="conatiner">
+        <h2>Currency Converter</h2>
+        <form>
+            <div class="amount">
+                <p>Enter amount:</p>
+                <input value="100" type="number">
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-container">
+                        <select name="from">
+                            <option value="NRS">NRS</option>
+                            <option value="USD">USD</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-container">
+                        <select name="to">
+                            <option value="NRS">NRS</option>
+                            <option value="USD">USD</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="msg">1USD = 132NRS</div>
+            <button>Get Exchange Rate </button>
+        </form>
+    </div>
+    <script src="converter.js"></script>
+</body>
+</html>
